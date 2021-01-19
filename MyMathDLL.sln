@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2ConsoleApp", "Day2Conso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProgramm", "UnitTestProgramm\UnitTestProgramm.csproj", "{E9CDDA30-4C79-4681-9930-4FD6D7677BD4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day2", "Day2", "{AD762B25-8F73-4165-960E-C2669192B94C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FAD6E38C-27B1-458E-AC3B-0F8E5A9E6316} = {AD762B25-8F73-4165-960E-C2669192B94C}
+		{831F2AC0-6C86-4D4C-A9BA-F388ADEA5709} = {AD762B25-8F73-4165-960E-C2669192B94C}
+		{E9CDDA30-4C79-4681-9930-4FD6D7677BD4} = {AD762B25-8F73-4165-960E-C2669192B94C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6190FD22-52E4-4AD6-9F08-1971662C8401}
