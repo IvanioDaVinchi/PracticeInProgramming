@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace Day3App
 {
-    class Program
+    public class Straight
     {
-        static void Main(string[] args)
-        {
-        }
+        public Point A = new Point();
+        public Point B = new Point();
     }
 }
